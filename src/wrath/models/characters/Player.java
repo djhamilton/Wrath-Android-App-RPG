@@ -2,14 +2,16 @@ package wrath.models.characters;
 
 public class Player {
 		
-	Inventory inventory;
-	Equipment equipment;
-	Statistics stats;
-	String name;
+	private Inventory inventory;
+	private Equipment equipment;
+	private Statistics stats;
+	private final String name;
 	
-	public Player(){
-		
+	public Player(String s){
+		name = s;		
 	}
+	
+	
 	
 
 }

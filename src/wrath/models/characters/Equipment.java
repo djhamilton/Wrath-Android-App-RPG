@@ -7,7 +7,6 @@ public class Equipment {
 	private Armor armor;
 	private WeaponSet setOne;
 	private WeaponSet setTwo;
-	private WeaponSet setThree;
 	
 	public Equipment(){
 	}
@@ -40,13 +39,4 @@ public class Equipment {
 	public void setSetTwo(WeaponSet setTwo) {
 		this.setTwo = setTwo;
 	}
-
-	public WeaponSet getSetThree() {
-		return setThree;
-	}
-
-	public void setSetThree(WeaponSet setThree) {
-		this.setThree = setThree;
-	}
-
 }

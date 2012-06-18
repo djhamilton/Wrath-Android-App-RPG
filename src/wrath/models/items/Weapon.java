@@ -61,7 +61,7 @@ public class Weapon extends Item{
 		this.isTwoHanded = isTwoHanded;
 	}
 
-	public boolean isDoesMagicDamage() {
+	public boolean doesMagicDamage() {
 		return doesMagicDamage;
 	}
 
